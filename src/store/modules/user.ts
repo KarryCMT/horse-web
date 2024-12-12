@@ -120,19 +120,19 @@ export const useUserStore = defineStore({
           grant_type: 'password',
         };
 
-        // const res = await loginApi(loginRequestParams);
-        const res = {
-          "code": 200,
-          "msg": "登录成功",
-          "data": {
-              "theme": "classic",
-              "token": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiIxODIyMzY3MzE1MDozNDkwNTc0MDcyMDk1NDEiLCJyblN0ciI6IkluRXdhdlhJMGdzdFFhYnNId3hxVUpPazlnWW4xYVFMIiwidXNlcl9pZCI6IjM0OTA1NzQwNzIwOTU0MSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2luZ2xlTG9naW4iOjIsImV4cCI6MTczMzc2ODExNzAzOSwidG9rZW4iOiIxODIyMzY3MzE1MGxvZ2luX3Rva2VuXzYzNTc2MzAxNjg1OTY2Mzc0OSJ9.EuiBVNC2yNr01ka4-_sOlAIoRE4N1rvZhjIEsCXL1UY",
-              "wl_qrcode": {
-                  "qrcodeId": "1494253920044847104",
-                  "qrcodeStream": ""
-              }
-          }
-      }
+        const res = await loginApi(loginRequestParams);
+      //   const res = {
+      //     "code": 200,
+      //     "msg": "登录成功",
+      //     "data": {
+      //         "theme": "classic",
+      //         "token": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJsb2dpblR5cGUiOiJsb2dpbiIsImxvZ2luSWQiOiIxODIyMzY3MzE1MDozNDkwNTc0MDcyMDk1NDEiLCJyblN0ciI6IkluRXdhdlhJMGdzdFFhYnNId3hxVUpPazlnWW4xYVFMIiwidXNlcl9pZCI6IjM0OTA1NzQwNzIwOTU0MSIsInVzZXJfbmFtZSI6ImFkbWluIiwic2luZ2xlTG9naW4iOjIsImV4cCI6MTczMzc2ODExNzAzOSwidG9rZW4iOiIxODIyMzY3MzE1MGxvZ2luX3Rva2VuXzYzNTc2MzAxNjg1OTY2Mzc0OSJ9.EuiBVNC2yNr01ka4-_sOlAIoRE4N1rvZhjIEsCXL1UY",
+      //         "wl_qrcode": {
+      //             "qrcodeId": "1494253920044847104",
+      //             "qrcodeStream": ""
+      //         }
+      //     }
+      // }
         const { token } = res.data;
         this.setToken(token);
         const baseStore = useBaseStore();

@@ -37,7 +37,7 @@
   import { useBaseStore } from '@/store/modules/base';
   import Form from './Form.vue';
   import PortalDesign from '@/components/VisualPortal/Design/index.vue';
-  import ReleaseModal from './components/ReleaseModal.vue';
+  import ReleaseModal from '@/components/VisualPortal/Design/components/ReleaseModal.vue';
   import { downloadByUrl } from '@/utils/file/download';
   import Preview from '@/components/VisualPortal/Design/components/Preview.vue';
   import { PreviewModal } from '@/components/CommonModal';

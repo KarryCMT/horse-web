@@ -48,7 +48,7 @@
   import { useMessage } from '@/hooks/web/useMessage';
   import { useDesign } from '@/hooks/web/useDesign';
   import { useModal } from '@/components/Modal';
-  import ReleaseModal from '@/views/onlineDev/visualPortal/components/ReleaseModal.vue';
+  import ReleaseModal from './components/ReleaseModal.vue';
   import { useI18n } from '@/hooks/web/useI18n';
 
   interface State {

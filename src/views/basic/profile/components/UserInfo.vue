@@ -201,7 +201,7 @@
   import { BasicTable, useTable, TableAction, BasicColumn, ActionItem } from '@/components/Table';
   import { useModal } from '@/components/Modal';
   import { useI18n } from '@/hooks/web/useI18n';
-  import Form from '@/views/system/commonWords/Form.vue';
+  import Form from './Form.vue';
 
   interface State {
     activeKey: string;

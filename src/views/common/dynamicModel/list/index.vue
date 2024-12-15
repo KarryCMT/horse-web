@@ -555,8 +555,8 @@
   import CustomForm from './CustomForm.vue';
   import Detail from './detail/index.vue';
   import ChildTableColumn from './ChildTableColumn.vue';
-  import FlowParser from '@/views/workFlow/components/FlowParser.vue';
-  import CandidateModal from '@/views/workFlow/components/modal/CandidateModal.vue';
+  import FlowParser from '../form/FlowParser.vue';
+  import CandidateModal from './CandidateModal.vue';
   import { ExportModal, ImportModal, SuperQueryModal } from '@/components/CommonModal';
   import { downloadByUrl } from '@/utils/file/download';
   import { useRoute } from 'vue-router';

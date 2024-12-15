@@ -9,7 +9,7 @@
   import { onMounted } from 'vue';
   import { usePopup } from '@/components/Popup';
   import FormPopup from './FormPopup.vue';
-  import FlowParser from '@/views/workFlow/components/FlowParser.vue';
+  import FlowParser from './FlowParser.vue';
 
   const props = defineProps(['config', 'modelId', 'isPreview']);
   const [registerFormPopup, { openPopup: openFormPopup }] = usePopup();

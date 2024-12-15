@@ -27,7 +27,6 @@
       </div>
     </div>
     <Detail @register="registerDetail" />
-    <ScheduleDetail @register="registerScheduleDetail" />
   </div>
 </template>
 <script lang="ts" setup>
@@ -42,7 +41,6 @@
   import { encryptByBase64 } from '@/utils/cipher';
   import { useBaseStore } from '@/store/modules/base';
   import Detail from '@/components/VisualPortal/Portal/HNotice/Detail.vue';
-  import ScheduleDetail from '@/views/workFlow/schedule/Detail.vue';
   import { getScheduleDetail } from '@/api/workFlow/schedule';
 
   defineOptions({ name: 'messageRecord' });

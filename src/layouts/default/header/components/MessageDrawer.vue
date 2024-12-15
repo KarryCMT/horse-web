@@ -52,7 +52,6 @@
       </div>
     </div>
     <Detail @register="registerDetail" />
-    <ScheduleDetail @register="registerScheduleDetail" />
   </BasicDrawer>
 </template>
 <script lang="ts" setup>
@@ -71,7 +70,6 @@
   import { encryptByBase64 } from '@/utils/cipher';
   import Detail from '@/components/VisualPortal/Portal/HNotice/Detail.vue';
   import { useBaseStore } from '@/store/modules/base';
-  import ScheduleDetail from '@/views/workFlow/schedule/Detail.vue';
   import { getScheduleDetail } from '@/api/workFlow/schedule';
   import { useDebounceFn } from '@vueuse/core';
 

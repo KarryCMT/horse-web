@@ -24,16 +24,7 @@ export const LoginRoute: AppRouteRecordRaw = {
     title: t('routes.basic.login'),
   },
 };
-// 表单外链
-export const FormShortLinkRoute: AppRouteRecordRaw = {
-  path: '/formShortLink',
-  name: 'FormShortLink',
-  component: () => import('@/views/common/formShortLink/index.vue'),
-  meta: {
-    title: '',
-  },
-};
 
 // Basic routing without permission
 // 未经许可的基本路由
-export const basicRoutes = [LoginRoute, FormShortLinkRoute, RootRoute, ...mainOutRoutes, REDIRECT_ROUTE, PAGE_NOT_FOUND_ROUTE, COMMON_ROUTE];
+export const basicRoutes = [LoginRoute, RootRoute, ...mainOutRoutes, REDIRECT_ROUTE, PAGE_NOT_FOUND_ROUTE, COMMON_ROUTE];

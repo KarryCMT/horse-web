@@ -113,35 +113,5 @@ export const COMMON_ROUTE: AppRouteRecordRaw = {
         icon: 'icon-ym icon-ym-user',
       },
     },
-    {
-      path: '/externalLink',
-      component: () => import('@/views/common/externalLink/index.vue'),
-      name: 'externalLink',
-      meta: {
-        title: 'routes.basic.externalLink',
-        defaultTitle: '链接',
-        icon: 'icon-ym icon-ym-generator-link',
-      },
-    },
-    {
-      path: '/emailDetail',
-      component: () => import('@/views/extend/email/DetailPage.vue'),
-      name: 'emailDetail',
-      meta: {
-        title: 'routes.basic.emailDetail',
-        defaultTitle: '查看邮件',
-        icon: 'icon-ym icon-ym-emailExample',
-      },
-    },
-    {
-      path: '/previewModel',
-      component: () => import('@/views/common/dynamicModel/index.vue'),
-      name: 'previewModel',
-      meta: {
-        title: 'routes.basic.previewModel',
-        defaultTitle: '功能预览',
-        icon: 'icon-ym icon-ym-btn-preview',
-      },
-    },
   ],
 };

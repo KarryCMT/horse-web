@@ -92,7 +92,7 @@
   import { pick } from 'lodash-es';
   import { relationFormProps } from './props';
   import { useGeneratorStore } from '@/store/modules/generator';
-  import Detail from '@/views/common/dynamicModel/list/detail/index.vue';
+  import Detail from './Detail.vue';
   import { RedoOutlined } from '@ant-design/icons-vue';
   import type { FormInstance } from 'ant-design-vue';
   import type { CSSProperties } from 'vue';

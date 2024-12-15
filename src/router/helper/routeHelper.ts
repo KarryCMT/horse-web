@@ -12,20 +12,11 @@ import { getToken } from '@/utils/auth';
 import { BackMenu } from '@/api/basic/model/userModel';
 
 export type LayoutMapKey = 'LAYOUT';
-const IFRAME = () => import('@/views/basic/iframe/FrameBlank.vue');
-const ONLINE_MODEL = () => import('@/views/common/dynamicModel/index.vue');
-const ONLINE_DICT = () => import('@/views/common/dynamicDictionary/index.vue');
-const ONLINE_REPORT = () => import('@/views/common/dynamicDataReport/index.vue');
-const ONLINE_PORTAL = () => import('@/views/common/dynamicPortal/index.vue');
+
 
 const LayoutMap = new Map<string, () => Promise<typeof import('*.vue')>>();
 
 LayoutMap.set('LAYOUT', LAYOUT);
-LayoutMap.set('IFRAME', IFRAME);
-LayoutMap.set('ONLINE_MODEL', ONLINE_MODEL);
-LayoutMap.set('ONLINE_DICT', ONLINE_DICT);
-LayoutMap.set('ONLINE_REPORT', ONLINE_REPORT);
-LayoutMap.set('ONLINE_PORTAL', ONLINE_PORTAL);
 
 let dynamicViewsModules: Record<string, () => Promise<Recordable>>;
 

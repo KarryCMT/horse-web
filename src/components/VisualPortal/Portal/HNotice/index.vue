@@ -51,7 +51,7 @@
 <script lang="ts" setup>
   import CardHeader from '../CardHeader/index.vue';
   import { useTable } from '../../Design/hooks/useTable';
-  import Detail from '@/views/system/notice/Detail.vue';
+  import Detail from './Detail.vue';
   import { useModal } from '@/components/Modal';
   import { useGlobSetting } from '@/hooks/setting';
   import noticeImg from '@/assets/images/gg.png';

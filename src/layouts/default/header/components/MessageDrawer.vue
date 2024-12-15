@@ -69,7 +69,7 @@
   import { DownOutlined } from '@ant-design/icons-vue';
   import { toDateValue } from '@/utils/jnpf';
   import { encryptByBase64 } from '@/utils/cipher';
-  import Detail from '@/views/system/notice/Detail.vue';
+  import Detail from '@/components/VisualPortal/Portal/HNotice/Detail.vue';
   import { useBaseStore } from '@/store/modules/base';
   import ScheduleDetail from '@/views/workFlow/schedule/Detail.vue';
   import { getScheduleDetail } from '@/api/workFlow/schedule';

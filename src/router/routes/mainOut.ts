@@ -18,26 +18,6 @@ export const mainOutRoutes: AppRouteModule[] = [
       ignoreAuth: true,
     },
   },
-  {
-    path: '/flowChat',
-    name: 'flowChat',
-    component: () => import('@/views/workFlow/flowChart/index.vue'),
-    meta: {
-      title: '',
-      hideMenu: true,
-      ignoreAuth: true,
-    },
-  },
-  {
-    path: '/flowFile',
-    name: 'flowFile',
-    component: () => import('@/views/workFlow/flowFile/index.vue'),
-    meta: {
-      title: '',
-      hideMenu: true,
-      ignoreAuth: true,
-    },
-  },
 ];
 
 export const mainOutRouteNames = mainOutRoutes.map(item => item.name);

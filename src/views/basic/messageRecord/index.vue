@@ -41,7 +41,7 @@
   import { useRouter } from 'vue-router';
   import { encryptByBase64 } from '@/utils/cipher';
   import { useBaseStore } from '@/store/modules/base';
-  import Detail from '@/views/system/notice/Detail.vue';
+  import Detail from '@/components/VisualPortal/Portal/HNotice/Detail.vue';
   import ScheduleDetail from '@/views/workFlow/schedule/Detail.vue';
   import { getScheduleDetail } from '@/api/workFlow/schedule';
 

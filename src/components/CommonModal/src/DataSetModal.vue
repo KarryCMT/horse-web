@@ -69,7 +69,7 @@
   import { MonacoEditor } from '@/components/CodeEditor';
   import { DownOutlined } from '@ant-design/icons-vue';
   import { InputSearch } from 'ant-design-vue';
-  import FieldTable from '@/views/systemData/dataInterface/components/Field/Field.vue';
+  import FieldTable from './Field.vue';
   import { buildUUID } from '@/utils/uuid';
 
   interface State {

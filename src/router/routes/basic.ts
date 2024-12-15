@@ -124,16 +124,6 @@ export const COMMON_ROUTE: AppRouteRecordRaw = {
       },
     },
     {
-      path: '/workFlowDetail',
-      component: () => import('@/views/workFlow/workFlowDetail/index.vue'),
-      name: 'workFlowDetail',
-      meta: {
-        title: 'routes.basic.workFlowDetail',
-        defaultTitle: '流程详情',
-        icon: 'icon-ym icon-ym-workFlow',
-      },
-    },
-    {
       path: '/emailDetail',
       component: () => import('@/views/extend/email/DetailPage.vue'),
       name: 'emailDetail',

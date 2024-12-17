@@ -283,7 +283,6 @@
   import { useMessage } from '@/hooks/web/useMessage';
   import { cloneDeep } from 'lodash-es';
   import { dyOptionsList } from '@/components/FormGenerator/src/helper/config';
-  import { JnpfRelationForm } from '@/components/Jnpf';
   import { isEmpty } from '@/utils/is';
   import { getParamList } from '@/utils/jnpf';
 

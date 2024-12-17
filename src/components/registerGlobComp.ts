@@ -67,7 +67,6 @@ import { JnpfTreeSelect } from '@/components/Jnpf/TreeSelect';
 import { JnpfUploadFile, JnpfUploadImg, JnpfUploadImgSingle, JnpfUploadBtn } from '@/components/Jnpf/Upload';
 import { Tinymce } from '@/components/Tinymce/index';
 import { JnpfNumberRange } from '@/components/Jnpf/NumberRange';
-import { JnpfRelationFormAttr } from '@/components/Jnpf/RelationFormAttr';
 import { JnpfPopupSelect, JnpfPopupTableSelect } from '@/components/Jnpf/PopupSelect';
 import { JnpfPopupAttr } from '@/components/Jnpf/PopupAttr';
 import { JnpfCalculate } from '@/components/Jnpf/Calculate';
@@ -158,7 +157,6 @@ export function registerGlobComp(app: App) {
     .use(JnpfText)
     .use(JnpfTreeSelect)
     .use(JnpfEditor)
-    .use(JnpfRelationFormAttr)
     .use(JnpfPopupSelect)
     .use(JnpfPopupTableSelect)
     .use(JnpfPopupAttr)

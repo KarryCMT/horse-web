@@ -564,7 +564,6 @@
   import { FilterOutlined } from '@ant-design/icons-vue';
   import { getSearchFormSchemas } from '@/components/FormGenerator/src/helper/transform';
   import { dyOptionsList, systemComponentsList } from '@/components/FormGenerator/src/helper/config';
-  import { JnpfRelationForm } from '@/components/Jnpf';
   import { cloneDeep } from 'lodash-es';
   import PrintSelect from '@/components/PrintDesign/printSelect/index.vue';
   import PrintBrowse from '@/components/PrintDesign/printBrowse/index.vue';

@@ -190,7 +190,6 @@
   import { getScriptFunc, getDateTimeUnit, thousandsFormat } from '@/utils/jnpf';
   import { getRealProps } from '@/components/FormGenerator/src/helper/transform';
   import SelectModal from '@/components/CommonModal/src/SelectModal.vue';
-  import { JnpfRelationForm } from '@/components/Jnpf';
   import { useMessage } from '@/hooks/web/useMessage';
   import { useI18n } from '@/hooks/web/useI18n';
   import dayjs from 'dayjs';

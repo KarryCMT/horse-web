@@ -31,8 +31,6 @@ import { JnpfText } from '@/components/Jnpf/Text';
 import { JnpfTreeSelect } from '@/components/Jnpf/TreeSelect';
 import { JnpfUploadFile, JnpfUploadImg, JnpfUploadImgSingle } from '@/components/Jnpf/Upload';
 import { Tinymce } from '@/components/Tinymce/index';
-import { JnpfRelationForm } from '@/components/Jnpf/RelationForm';
-import { JnpfRelationFormAttr } from '@/components/Jnpf/RelationFormAttr';
 import { JnpfPopupSelect, JnpfPopupTableSelect } from '@/components/Jnpf/PopupSelect';
 import { JnpfPopupAttr } from '@/components/Jnpf/PopupAttr';
 import { JnpfNumberRange } from '@/components/Jnpf/NumberRange';
@@ -107,8 +105,6 @@ export {
   JnpfUploadFile,
   JnpfUploadImg,
   JnpfUploadImgSingle,
-  JnpfRelationForm,
-  JnpfRelationFormAttr,
   JnpfPopupSelect,
   JnpfPopupTableSelect,
   JnpfPopupAttr,

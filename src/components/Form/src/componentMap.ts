@@ -56,8 +56,6 @@ import {
   JnpfUploadFile,
   JnpfUploadImg,
   JnpfUploadImgSingle,
-  JnpfRelationForm,
-  JnpfRelationFormAttr,
   JnpfPopupSelect,
   JnpfPopupTableSelect,
   JnpfPopupAttr,
@@ -128,8 +126,6 @@ componentMap.set('CreateUser', JnpfOpenData);
 componentMap.set('CreateTime', JnpfOpenData);
 componentMap.set('CurrOrganize', JnpfOpenData);
 componentMap.set('CurrPosition', JnpfOpenData);
-componentMap.set('RelationForm', JnpfRelationForm);
-componentMap.set('RelationFormAttr', JnpfRelationFormAttr);
 componentMap.set('PopupSelect', JnpfPopupSelect);
 componentMap.set('PopupTableSelect', JnpfPopupTableSelect);
 componentMap.set('PopupAttr', JnpfPopupAttr);
